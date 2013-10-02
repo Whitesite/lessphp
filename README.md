@@ -1,7 +1,11 @@
-# lessphp v0.4.0
+# lessphp v0.4.0-whitesite
 ### <http://leafo.net/lessphp>
 
-[![Build Status](https://secure.travis-ci.org/leafo/lessphp.png)](http://travis-ci.org/leafo/lessphp)
+This fork is not integrated with CI.
+
+The purpose of this fork is to allow @import "./../foo/bar.less" behaviour. That is, instead of adding import dirs, we can specify a path to follow.
+
+See http://jonathanmh.com/import-less-from-parent-directory/
 
 `lessphp` is a compiler for LESS written in PHP. The documentation is great,
 so check it out: <http://leafo.net/lessphp/docs/>.
